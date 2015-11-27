@@ -3,3 +3,44 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 }
+
+.test-border {
+	border: 2px solid red;
+}
+
+.test-border-green {
+	border: 2px solid green;
+}
+
+/* navigation sytles */
+
+.active {
+	background-color: grey;
+}
+
+header {
+	margin: 0;
+	background-color: black;
+}
+
+.main-nav {
+	height: 40px;
+}
+
+.main-nav ul {
+   text-align: right;
+   margin: 0;
+   padding: 0;
+}
+
+.main-nav li {
+	display: inline-block;
+}
+
+.main-nav a {
+	padding: 0 10px;
+	line-height: 40px;
+	width: 60px;
+	text-decoration: none;
+	color: white;
+}
